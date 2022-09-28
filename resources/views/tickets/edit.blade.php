@@ -90,7 +90,7 @@
                         <h1>Check the developers for the ticket</h1>
                         @foreach($developers as $developer)
                             <div class="row mb-3">
-                                <input id="developer" type="checkbox" name="developers[]" value="{{ $developer->id }}" required autocomplete="developer" autofocus>
+                                <input id="developer" type="checkbox" name="developers[]" value="{{ $developer->id }}" autocomplete="developer" autofocus>
                                 <label for="status" class="col-md-4 col-form-label text-md-end">{{ $developer->name }}</label>
                             </div>
                         @endforeach
